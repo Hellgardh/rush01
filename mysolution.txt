@@ -1,0 +1,23 @@
+
+1 => first step: processar a entrada padrao;
+    objetivo é separar cada numero cujo o delimitador é o espaço(ou ascii 32), para fazer isso vou criar
+    uma função char * ft_split()(char *str)
+
+        * A principio são 16 entradas mas caso eu queria pegar os bonus terei que aceitar uma entrada dinamica;
+        * a entrada está entre aspas entao argc = 2;
+
+        * char ou inteiro ? r=> inteiro 
+
+2 => second step: calcular a saida. como ?
+
+
+
+
+
+
+3 => step three: liberar a memoria
+
+
+
+4=> comando para a compilação 
+    gcc main.c puzzle/skyscraper.c puzzle/clues.c MemAloc/mem.c string/strmanage.c -o run
