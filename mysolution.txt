@@ -20,4 +20,5 @@
 
 
 4=> comando para a compilação 
-    gcc main.c puzzle/skyscraper.c puzzle/clues.c MemAloc/mem.c string/strmanage.c -o run
+    gcc main.c puzzle/*.c MemAloc/mem.c string/strmanage.c -o run
+	./run "4 3 2 1 1 2 2 2 4 3 2 1 1 2 2 2"
