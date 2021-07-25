@@ -17,7 +17,9 @@ void	*mat_alloc1(int size)
 	if(ptr == NULL)
 	{
 		ft_print("Out of Memory");
+		return (0);
 	}
+	return (0);
 }
 
 void *cell_alloc(int size)
