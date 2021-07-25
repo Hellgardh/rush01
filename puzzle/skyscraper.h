@@ -8,7 +8,7 @@
 #include "cell.h"
 #endif
 
-void	*mat_alloc(int qt_row, int size_row);
+void	*mat_alloc2(int qt_row, int size_row);
 void	init_cells(t_cell **s_cells, int size);
 void    *mat_alloc3(int size_x, int size_y, int size_z);
 void	*cell_alloc(int size);

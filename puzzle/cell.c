@@ -4,7 +4,7 @@ t_cell	make_cell(int size)
 {
 	t_cell	s_cell;
 
-	s_cell.values_pool = array_alloc(size);
+	s_cell.values_pool = mat_alloc1(size);
 	s_cell.correct_value = 0;
 	return s_cell;
 }

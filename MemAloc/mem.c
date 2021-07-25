@@ -10,6 +10,16 @@ void * array_alloc(int size) {
     return ptr;    
 }
 
+void	*mat_alloc1(int size)
+{
+	void *ptr;
+	ptr = malloc(size * sizeof(int));
+	if(ptr == NULL)
+	{
+		ft_print("Out of Memory");
+	}
+}
+
 void *cell_alloc(int size)
 {
 	int i;
@@ -36,7 +46,7 @@ void *cell_alloc(int size)
 }
 
 
-void * mat_alloc(int qt_row, int size_row) {
+void * mat_alloc2(int qt_row, int size_row) {
     void **ptr;
     if ((ptr = malloc(qt_row * sizeof(int *))) == 0) {
         ft_print("Out of Memory");

@@ -12,5 +12,5 @@ void	solve_cell(t_cell s_cell, int value);
 
 #endif
 
-void	*array_alloc(int size);
+void	*mat_alloc1(int size);
 void	ft_print(char *str);
